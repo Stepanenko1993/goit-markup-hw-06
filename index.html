@@ -491,16 +491,81 @@
        
       </ul>
       </div>
+      <div class="text-footer-form">
+        <p class="text-footer">Підпишіться на розсилку</p>
+        
+        <form class="form">
+          <input type="text" class="contact-form" name="e-mail" placeholder="E-mail" required>
+           <span class="mail-icon">
+          <button type="button" class="button-telegram"><span class="text-modal-batton">Підписатися</span>
+            <svg arial-lable="icon-icon-send" class="logo-mail-form" width="24" height="24">
+            <use href="./images/icons.svg.svg#icon-icon-send"></use>
+            </svg>
+          </button>
+        </span>
+</form>
+        
+      
+      
+    
+      </div>
     </div>
     </footer>
      
      <div class="backdrop is-hidden" data-modal>
       <div class="modal-close">
-        <button type="button" class="button-backdrop" data-modal-close>
+        <button type="submit" class="button-backdrop" data-modal-close>
           <svg  arial-lable="Vector1"  class="close" width="11" height="11" > 
           <use href="./images/icons.svg.svg#Vector"></use>
         </svg>
         </button>
+        <p class="form-text">Залиште свої дані, ми вам передзвонимо</p>
+
+        <form class="form-modal-window">
+          <label class="modal-form">
+            <span class="modal-form-text"> Ім'я</span>
+            <input type="text"
+            class="form-input"
+            required
+            name="user-name"
+            />
+
+          </label>
+          <label class="modal-form">
+            <span class="modal-form-text"> Телефон</span>
+            <input type="text"
+            class="form-input"
+            required
+            name="user-tel"
+            />
+          </label>
+          <label class="modal-form">
+            <span class="modal-form-text"> Пошта</span>
+            <input type="text"
+            class="form-input"
+            required
+            name="user-mail"
+            />
+          </label>
+          <label class="modal-form">
+            <span class="modal-form-text">Коментар</span>
+            <textarea 
+            name="user-message"
+            class="form-textarea"
+            placeholder="Введіть текст"
+            ></textarea>
+          </label>
+          <label class="form-text-checkbox">
+            <input class="check"
+            type="checkbox"
+            required
+            name="user-checkbox">
+
+          </label>
+          <button type="submit" class="">Відправити</button>
+
+        </form>
+    
       </div>
     </div>
     <script src="./js/modal.js"></script>
